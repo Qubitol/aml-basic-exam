@@ -12,15 +12,15 @@ The [MNIST](http://yann.lecun.com/exdb/mnist/) (Modified National Institute of S
 > Well, if it does work on MNIST, it may still fail on others.  
 >   -- *Unknown author*
 
-
 It was developed by Yann LeCun, Corinna Cortes and Christopher Burges.  
 The MNIST database contains 60000 training images and 10000 testing images, which were taken from various scanned documents.
 They have been normalised to fit 28x28 pixel bounding box and centered.
 
+![Some MNIST digits from 0 to 9](plots/digits.png)
+
 Excellent results achieve a prediction error of less than 1%.
 State-of-the-art prediction error of approximately 0.2% can be achieved with large Convolutional Neural Networks.
 
-# Method
 ## The dataset
 The database is made of four different datasets:
 * [`train-images-idx3-ubyte.gz`](http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz):  training set images (9912422 bytes);
