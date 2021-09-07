@@ -69,7 +69,7 @@ We choose the accuracy to be the main performance metric for model assessment.
 
 ## Final results
 ### k-Nearest Neighbors
-The accuracy of KNN on the test set is: %.
+The accuracy of KNN on the test set is: 93.6%.
 
 ### Random Forest Classifier
-The accuracy of RFC on the test set is: %.
+The accuracy of RFC on the test set is: 90.8%.
