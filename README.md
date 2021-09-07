@@ -16,7 +16,7 @@ It was developed by Yann LeCun, Corinna Cortes and Christopher Burges.
 The MNIST database contains 60000 training images and 10000 testing images, which were taken from various scanned documents.
 They have been normalised to fit 28x28 pixel bounding box and centered.
 
-![Some MNIST digits from 0 to 9](plots/digits.png)
+![Some MNIST digits from 0 to 9](plots/digits.jpg)
 
 Excellent results achieve a prediction error of less than 1%.
 State-of-the-art prediction error of approximately 0.2% can be achieved with large Convolutional Neural Networks.
