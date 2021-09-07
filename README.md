@@ -66,7 +66,6 @@ We chose to fine-tune the following models:
 * RFC.
 
 We choose the accuracy to be the main performance metric for model assessment.
-The fine-tuned models are saved in the directory `models/`, ready to be loaded with the `joblib` library.
 
 ## Final results
 ### k-Nearest Neighbors
