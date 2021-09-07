@@ -9,8 +9,7 @@
 The [MNIST](http://yann.lecun.com/exdb/mnist/) (Modified National Institute of Standards and Technology database) is a database of handwritten digits, widely used by the machine learning community to evaluate the capabilities of their algorithms.
 
 > If it doesn't work on MNIST, it won't work at all.  
-> Well, if it does work on MNIST, it may still fail on others.
-
+> Well, if it does work on MNIST, it may still fail on others.  
 >   -- *Unknown author*
 
 
@@ -50,7 +49,7 @@ Each hand-written digit is associated to one of them.
 We tried the following models:
 * Logistic Regression (LR);
 * Linear Discriminant Analysis (LDA);
-* $k$-Nearest Neighbors (KNN);
+* k-Nearest Neighbors (KNN);
 * Classification and Regression Trees (CART);
 * Naive Bayes (NB);
 * Linear Support Vector Machines (LSVM);
@@ -70,7 +69,7 @@ We choose the accuracy to be the main performance metric for model assessment.
 The fine-tuned models are saved in the directory `models/`, ready to be loaded with the `joblib` library.
 
 ## Final results
-### $k$-Nearest Neighbors
+### k-Nearest Neighbors
 The accuracy of KNN on the test set is: %.
 
 ### Random Forest Classifier
