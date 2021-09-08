@@ -68,6 +68,9 @@ We chose to fine-tune the following models:
 We choose the accuracy to be the main performance metric for model assessment.
 
 ## Final results
+*NOTE: when running the notebook, the fine-tuned models are automatically saved in the `models/` directory.
+The directory is now empty as the saved models' sizes exceed the 100 MB limits imposed from GitHub.*
+
 ### k-Nearest Neighbors
 The accuracy of KNN on the test set is: 93.6%.
 
